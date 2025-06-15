@@ -1,0 +1,41 @@
+# Secrets et configurations
+.env
+*.env
+config.py
+secrets.py
+
+# API Keys
+api_keys.txt
+*.key
+
+# Résultats et données sensibles
+results/
+output/
+*.json
+*.csv
+
+# Cache Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Virtual env
+venv/
+env/
+*.egg-info/
